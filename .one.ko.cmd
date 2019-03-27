@@ -1,0 +1,1 @@
+cmd_/home/zhaomengdan/Desktop/kernel_device/linux_kernel/one.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/zhaomengdan/Desktop/kernel_device/linux_kernel/one.ko /home/zhaomengdan/Desktop/kernel_device/linux_kernel/one.o /home/zhaomengdan/Desktop/kernel_device/linux_kernel/one.mod.o ;  true
